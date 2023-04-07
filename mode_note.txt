@@ -1,0 +1,20 @@
+\documentclass[a4paper]{article}
+
+\usepackage[latin1]{inputenc} 
+\usepackage[francais]{babel} 
+\usepackage{textcomp} 
+\usepackage{amsmath} 
+\usepackage[babel=true]{csquotes}
+\usepackage{graphicx}
+\title{Note of Experimental measurement of the quantum geometric tensor using coupled qubits in diamond}
+
+\author{Zhang-Haolong}
+
+\usepackage[T1]{fontenc}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+
+\end{document}

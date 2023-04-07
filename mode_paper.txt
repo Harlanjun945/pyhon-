@@ -1,0 +1,90 @@
+%-------------------------------------模板格式设置------------------------------
+
+\documentclass[aps,twocolumn,preprintnumbers]{revtex4}
+
+%The following packages add LaTeX commands that make formatting and writing math easier
+
+\usepackage{graphicx}  % Include figure files
+\usepackage{subfigure}
+\usepackage{multirow}
+
+\linespread{1.1}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{parskip}
+\usepackage[T1]{fontenc}
+\usepackage{dcolumn}   % Align table columns on decimal point
+
+\usepackage{bm}        % bold math
+\usepackage{amsfonts}  % Common math fonts
+\usepackage{amsmath}   % Common math functions
+\usepackage{amssymb}   % Common math symbols
+\usepackage{natbib} % Endnote reference 
+
+%The following custom commands simplify commonly used LaTeX commands
+
+\newcommand{\pic}[2]{\begin{center} \includegraphics[scale=#1]{#2}\end{center}}
+\newcommand{\re}[1]{\mathrm{Re}\left(#1\right)}
+\newcommand{\im}[1]{\mathrm{Im}\left(#1\right)}
+\newcommand{\bdot}[1]{\dot{ \bb {#1}}}
+\newcommand{\bddot}[1]{\ddot{ \bb {#1}}}
+\newcommand{\bidot}[1]{\dot{ \bi{ #1}}}
+\newcommand{\biddot}[1]{\ddot{ \bi {#1}}}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\for}{\quad \quad \mathrm{for} \quad\quad}
+\newcommand{\then}{\quad \quad \implies \quad\quad}
+\newcommand{\an}{\quad \quad \mathrm{and} \quad\quad}
+\newcommand{\ifff}{\quad \quad \mathrm{if} \quad\quad}
+\newcommand{\where}{\quad \quad \mathrm{where} \quad\quad}
+\newcommand{\dg}{^\dagger}
+\newcommand{\semi}{\quad \quad \mathrm{;} \quad\quad}
+\newcommand{\paren}[1]{\left( #1 \right)}
+\newcommand{\brac}[1]{\left[ #1 \right]}
+\newcommand{\bra}[1]{\left\langle #1 \right|}
+\newcommand{\exv}[1]{\left\langle #1 \right\rangle}
+\newcommand{\pwisein}{\left\{ \begin{array}{ll}}
+\newcommand{\pwiseout}{\end{array}\right.}
+\newcommand{\ket}[1]{\left| #1 \right\rangle}
+\newcommand{\bracket}[2]{\left\langle #1 | #2 \right\rangle}
+\newcommand{\trace}[1]{\mathrm{Tr} \left( #1 \right)}
+\renewcommand{\det}[1]{\mathrm{det}\left( #1 \right)}
+\newcommand{\del}[1]{\frac{\partial}{\partial #1}}
+\newcommand{\fulld}[1]{\frac{d}{d #1}}
+\newcommand{\fulldd}[2]{\frac{d #1}{d #2}}
+\newcommand{\dell}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\delltwo}[2]{\frac{\partial^2 #1}{\partial #2 ^2}}
+\newcommand{\bb}{\mathbf}
+\newcommand{\bi}{\boldsymbol}
+\newcommand{\eq}[1]{\begin{equation} #1 \end{equation}}
+\newcommand{\radhalf}{ \frac{ \sqrt{2}}{2}}
+\newcommand{\sigx}{\left( \begin{array}{cc} 0 & 1\\ 1 & 0 \end{array}\right)}
+\newcommand{\sigy}{\left( \begin{array}{cc} 0 & -i\\ i & 0 \end{array}\right)}
+\newcommand{\sigz}{\left( \begin{array}{cc} 1 & 0\\ 0 & -1 \end{array}\right)}
+\renewcommand{\matrix}[1]{\left( \begin{array} #1 \end{array}\right)}
+\newcommand{\thermo}[3]{\left( \frac{\partial #1}{\partial #2} \right)_{#3}}
+\newcommand{\coolfrac}[2]{\left( \frac{ #1}{ #2} \right)}
+
+\setlength{\parindent}{10pt}
+%---------------------------------------写作区域--------------------------------
+\begin{document}
+
+\title{Note of Experimental measurement of the quantum geometric tensor using coupled qubits in diamond}
+
+\author{Zhang-Haolong}
+
+\affiliation {\it Fujian Key Laboratory of Quantum Information and Quantum Optics, College of Physics and Information Engineering, Fuzhou University, Fuzhou, Fujian 350108, China}
+
+\date{November 9, 2022}
+
+\begin{abstract}  
+%摘要区
+
+\end{abstract}
+
+\maketitle 
+%正文区
+\section{Introduction}
+\subsection{Quantum Metric}
+
+\bibliography{reference.bib}
+\end{document}
